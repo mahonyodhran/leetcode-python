@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        my_set = set(nums)
+        my_set = set(nums) # sets cannot have duplicates - so if there is a dupe, they won't be same length
         if(len(my_set) == len(nums)):
             return False
         return True
