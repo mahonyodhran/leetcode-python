@@ -19,7 +19,31 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 '''
-
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        pass
+        if len(nums) == 2:
+            return [0,1] 
+
+        mappy = {}
+        for index, number in enumerate(nums):
+            goal = target - number # we know we need to find a certain number
+            if goal in mappy: # if that goal number is already in the hashmap, enter this block and return
+                return[mappy[goal], index]
+            mappy[number] = index
+
+sol = Solution()
+
+nums = [2,7,11,15] 
+target = 9
+print(sol.twoSum(nums, target))
+# Output: [0,1]
+
+nums = [3,2,4]
+target = 6
+print(sol.twoSum(nums, target))
+# Output: [1,2]
+
+nums = [3,3] 
+target = 6
+print(sol.twoSum(nums, target))
+# Output: [0,1]
