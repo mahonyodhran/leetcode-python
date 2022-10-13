@@ -30,8 +30,7 @@ class Solution:
                 new_string += char.lower()
             if char.isdigit():
                 new_string += char
-        r = new_string[::-1]
-        return new_string == r
+        return new_string == new_string[::-1]
 
     
 sol = Solution()
