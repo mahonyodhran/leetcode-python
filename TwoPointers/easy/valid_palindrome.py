@@ -1,4 +1,6 @@
 """
+https://leetcode.com/problems/valid-palindrome/
+
 A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 
 Given a string s, return true if it is a palindrome, or false otherwise.
@@ -22,11 +24,19 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        s = s.replace(' ', '')
-
-        pass
+        new_string = ""
+        for char in s:
+            if char.isalpha():
+                new_string += char.lower()
+            if char.isdigit():
+                new_string += char
+        r = new_string[::-1]
+        return new_string == r
 
     
 sol = Solution()
 
-print(sol.isPalindrome("race a car"))
+print(sol.isPalindrome("race a car")) #False
+print(sol.isPalindrome("racecar")) #True
+print(sol.isPalindrome("A man, a plan, a canal: Panama")) #True
+print(sol.isPalindrome("0P")) #False
