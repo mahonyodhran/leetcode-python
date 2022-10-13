@@ -10,16 +10,20 @@ Solutions to Neetcode 150.
   * Valid Anagram ✔️ 
   * Two Sum ✔️ 
 * Medium
-  * Group Anagrams ⬅️
+  * Group Anagrams ⚠️
   * Top K Frequent Elements
   * Product of Array Except Self
   * Valid Sudoku
   * Encode and Decode Strings
   * Longest Consecutive Sequence
 ### Two Pointers
-  ⌛
+* Easy
+  * Valid Palindrome ✔️
+* Medium
+  * Two Sum II - Input Array Is Sorted ⚠️
 ### Sliding Window
-  ⌛
+* Easy
+  * Best Time to Buy and Sell Stock ⬅️
 ### Stack
   ⌛
 ### Binary Search
