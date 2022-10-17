@@ -22,9 +22,29 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 class Solution:
     def maxProfit(self, prices: list[int]) -> int:
-        return 0
+        left = 0
+        right = 1
+        max_profit = 0
+        while right < len(prices):
+            if prices[right] > prices[left]:
+                profit = prices[right] - prices[left]
+                max_profit = max(max_profit,profit)
+            else:
+                left = right
+            right += 1
+        return max_profit
     
 sol = Solution()
 
 print(sol.maxProfit([7,1,5,3,6,4])) #5
 print(sol.maxProfit([7,6,4,3,1])) #0
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
+"""
+Runtime: 2900 ms, faster than 12.09% of Python3 online submissions for Best Time to Buy and Sell Stock.
+Memory Usage: 25.1 MB, less than 7.02% of Python3 online submissions for Best Time to Buy and Sell Stock.
+"""
