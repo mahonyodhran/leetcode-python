@@ -23,7 +23,9 @@ Solutions to Neetcode 150.
   * Two Sum II - Input Array Is Sorted ⚠️
 ### Sliding Window
 * Easy
-  * Best Time to Buy and Sell Stock ⬅️
+  * Best Time to Buy and Sell Stock ✔️
+* Medium
+  * Longest Substring Without Repeating Characters ⚠️
 ### Stack
   ⌛
 ### Binary Search
