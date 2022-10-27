@@ -27,7 +27,10 @@ Solutions to Neetcode 150.
 * Medium
   * Longest Substring Without Repeating Characters ⚠️
 ### Stack
-  ⌛
+* Easy
+  * Valid Parentheses 👷
+* Medium
+  * Min Stack ⚠️
 ### Binary Search
   ⌛
 ### Linked List
