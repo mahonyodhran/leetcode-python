@@ -10,7 +10,7 @@ Solutions to Neetcode 150.
   * Valid Anagram ✔️ 
   * Two Sum ✔️ 
 * Medium
-  * Group Anagrams ⚠️
+  * Group Anagrams
   * Top K Frequent Elements
   * Product of Array Except Self
   * Valid Sudoku
@@ -20,17 +20,17 @@ Solutions to Neetcode 150.
 * Easy
   * Valid Palindrome ✔️
 * Medium
-  * Two Sum II - Input Array Is Sorted ⚠️
+  * Two Sum II - Input Array Is Sorted
 ### Sliding Window
 * Easy
   * Best Time to Buy and Sell Stock ✔️
 * Medium
-  * Longest Substring Without Repeating Characters ⚠️
+  * Longest Substring Without Repeating Characters
 ### Stack
 * Easy
   * Valid Parentheses 👷
 * Medium
-  * Min Stack ⚠️
+  * Min Stack
 ### Binary Search
   ⌛
 ### Linked List
